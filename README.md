@@ -2,4 +2,4 @@
 
 Showcasing my skills, experience, and projects.
 
-[View My Portfolio](https://gane-an.in/)
+[View My Portfolio](https://gane-an.github.io/Portfolio/)
