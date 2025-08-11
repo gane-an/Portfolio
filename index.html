@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>Portfolio | Ganesan</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Gane</p>
+          <span>san</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#skills" class="nav-link">Skills</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#certificates" class="nav-link">Certificates</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn" onclick="downloadResume()">
+            Download Resume <i class="uil uil-file-alt"></i>
+          </button>
+        </div>
+        <div class="nav-menu-btn" onclick="myMenuFunction()">
+          <i class="uil uil-bars"></i>
+        </div>
+      </nav>
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box sec" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Ganesan S</span>
+            </div>
+            <div class="featured-name">
+              <p>I'm <span class="typedText">Web Developer</span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                I am a CSE student passionate about turning ideas into working
+                web applications. Always curious to learn, improve, and explore
+                new concepts in technology.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <button
+                onclick="hireMe()"
+                title="Send me the mail"
+                class="btn blue-btn"
+              >
+                Hire Me
+              </button>
+              <button class="btn" onclick="downloadResume()">
+                Download Resume <i class="uil uil-file-alt"></i>
+              </button>
+            </div>
+            <div class="social_icons">
+              <!-- <div
+                class="icon"
+                style="--name: var(--insta-color)"
+                title="Not Available"
+              >
+                <a href="#">
+                  <i class="uil uil-instagram"></i>
+                </a>
+              </div> -->
+              <div class="icon" style="--name: var(--linkedin-color)">
+                <a href="https://www.linkedin.com/in/gane-an?" target="_blank"
+                  ><i class="uil uil-linkedin-alt"></i
+                ></a>
+              </div>
+              <!-- <div
+                class="icon"
+                style="--name: var(--dribbble-color)"
+                title="Not Available"
+              >
+                <a href="#">
+                  <i class="uil uil-dribbble"></i>
+                </a>
+              </div> -->
+              <div class="icon" style="--name: var(--github-color)">
+                <a href="https://github.com/gane-an" target="_blank">
+                  <i class="uil uil-github-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="assets/images/prof.jpeg" alt="profile" />
+            </div>
+          </div>
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section">
+          <div class="row">
+            <div class="col sec" id="about">
+              <div class="top-header">
+                <h1>About Me</h1>
+              </div>
+              <div class="about-info">
+                <h3>My introduction</h3>
+                <p>
+                  Hi, I’m Ganesan! I’m a web developer who loves turning ideas
+                  into working websites and applications. I’ve completed
+                  training in Web Development, and I’ve built projects like
+                  games, web tools, and simple apps that mix creativity with
+                  problem-solving. I’m always curious to learn new technologies
+                  and improve my coding skills. My goal is to work on projects
+                  that make a real impact and help people in their daily lives.
+                </p>
+                <!-- <div class="about-btn">
+                  <button class="btn" onclick="downloadResume()">
+                    Download Resume <i class="uil uil-import"></i>
+                  </button>
+                </div> -->
+              </div>
+            </div>
+            <div class="col sec" id="skills">
+              <div class="top-header">
+                <h1>Skills</h1>
+              </div>
+              <div class="skills-body">
+                <div class="skills-box">
+                  <div class="skills-header">
+                    <h3>Frontend</h3>
+                  </div>
+                  <div class="skills-list">
+                    <span style="--per: 97" per="97">HTML</span>
+                    <span style="--per: 80" per="80">CSS</span>
+                    <!-- <span style="--per: 50" per="50">Bootstrap</span> -->
+                    <span style="--per: 75" per="75">JavaScript</span>
+                  </div>
+                </div>
+                <div class="skills-box">
+                  <div class="skills-header">
+                    <h3>Programming</h3>
+                  </div>
+                  <div class="skills-list">
+                    <span style="--per: 75" per="75">JAVA</span>
+                    <span style="--per: 60" per="50">Python</span>
+                  </div>
+                </div>
+                <div class="skills-box">
+                  <div class="skills-header">
+                    <h3>Database</h3>
+                  </div>
+                  <div class="skills-list">
+                    <span style="--per: 60" per="60">MySQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- -------------- CERTIFICATE BOX ---------------- -->
+        <section class="section">
+          <div class="top-header sec" id="certificates">
+            <h1>Certificates</h1>
+          </div>
+          <div id="certificate-box">
+            <div class="cert-item">
+              <img
+                src="./assets/images/certificate/cert-1.jpeg"
+                alt=""
+                onclick="openModel(this)"
+              />
+            </div>
+
+            <div class="cert-item">
+              <img
+                src="./assets/images/certificate/cert-3.jpeg"
+                alt=""
+                onclick="openModel(this)"
+              />
+            </div>
+
+            <div class="cert-item">
+              <img
+                src="./assets/images/certificate/cert-4.jpeg"
+                alt=""
+                onclick="openModel(this)"
+              />
+            </div>
+            <div class="cert-item">
+              <img
+                src="./assets/images/certificate/cert-5.jpeg"
+                alt=""
+                onclick="openModel(this)"
+              />
+            </div>
+            <div class="cert-item">
+              <img
+                src="./assets/images/certificate/cert-6.jpeg"
+                alt=""
+                onclick="openModel(this)"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- Model -->
+        <div class="modal" id="imageModal" onclick="closeModal()">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <img class="modal-content" id="modalImage" />
+          <div id="caption"></div>
+        </div>
+
+        <!-- -------------- CONTACT BOX ---------------- -->
+        <section class="section sec" id="contact">
+          <div class="row">
+            <!-- <div class="col">
+              <div class="contact-info">
+                <h2>Contact <i class="uil uil-corner-right-down"></i></h2>
+                <p><i class="uil uil-envelope"></i> Email: ganesan@gmail.com</p>
+                <p><i class="uil uil-phone"></i> Tel: +91 9036****93</p>
+              </div>
+                </div>  -->
+            <div class="col">
+              <div class="top-header">
+                <h1>Get in touch</h1>
+                <span>Do you want contact me </span>
+              </div>
+              <div class="form-control">
+                <div class="form-inputs">
+                  <input
+                    type="text"
+                    class="input-field"
+                    placeholder="Name"
+                    autocomplete="off"
+                    id="cname"
+                    required
+                  />
+                  <input
+                    type="email"
+                    class="input-field"
+                    placeholder="Email"
+                    autocomplete="new-email"
+                    id="cemail"
+                    required
+                  />
+                </div>
+                <div class="text-area">
+                  <textarea
+                    placeholder="Message"
+                    id="cmessage"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-button">
+                  <button class="btn" onclick="sendMail()">
+                    Send <i class="uil uil-message"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <p>Ganesan</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home" class="foot-link">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about" class="foot-link">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#skills" class="foot-link">Skills</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#certificates" class="foot-link">Certificates</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact" class="foot-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icon">
+          <!-- <div
+            class="icon"
+            style="--name: var(--insta-color)"
+            title="Not Available"
+          >
+            <a href="#">
+              <i class="uil uil-instagram"></i>
+            </a>
+          </div> -->
+          <div class="icon" style="--name: var(--linkedin-color)">
+            <a href="https://www.linkedin.com/in/gane-an?" target="_blank"
+              ><i class="uil uil-linkedin-alt"></i
+            ></a>
+          </div>
+          <!-- <div
+            class="icon"
+            style="--name: var(--dribbble-color)"
+            title="Not Available"
+          >
+            <a href="#">
+              <i class="uil uil-dribbble"></i>
+            </a>
+          </div> -->
+          <div class="icon" style="--name: var(--github-color)">
+            <a href="https://github.com/gane-an" target="_blank">
+              <i class="uil uil-github-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none">Ganesan</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
