@@ -144,6 +144,7 @@ function sendMail() {
 
 // Resume
 function downloadResume() {
-  const resumeUrl = "http://linkedin.com/in/gane-an";
+  const resumeUrl =
+    "https://drive.google.com/file/d/1HGCuLmbVFq94XXVQGA7T2wL3pssbNb-s/view?usp=drivesdk";
   window.open(resumeUrl, "_blank");
 }
